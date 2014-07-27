@@ -1,0 +1,1117 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"tel",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"ev",
+				"Events"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"conn",
+				"connected"
+			],
+			[
+				"res",
+				"resultsFile"
+			],
+			[
+				"sear",
+				"searchVal"
+			],
+			[
+				"white",
+				"whitesmoke"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"mys",
+				"mysticPadData"
+			],
+			[
+				"coll",
+				"collectionData"
+			],
+			[
+				"da",
+				"dataLoaded"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"my",
+				"mysticPadData"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"act",
+				"activeDrag"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 398,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/js.js",
+			"settings":
+			{
+				"buffer_size": 315,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/routes/all.js",
+			"settings":
+			{
+				"buffer_size": 1069,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/models/model_socket.js",
+			"settings":
+			{
+				"buffer_size": 1488,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/ecco.js",
+			"settings":
+			{
+				"buffer_size": 879,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/models/model_config.js",
+			"settings":
+			{
+				"buffer_size": 1436,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/models/model_file_csv.js",
+			"settings":
+			{
+				"buffer_size": 7761,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/views/view_file_csv_config.js",
+			"settings":
+			{
+				"buffer_size": 4810,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/templates/view_file_csv_config.coffee",
+			"settings":
+			{
+				"buffer_size": 2557,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/views/view_window.js",
+			"settings":
+			{
+				"buffer_size": 3738,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/views/view_errors.js",
+			"settings":
+			{
+				"buffer_size": 1459,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/collections/collection_files.js",
+			"settings":
+			{
+				"buffer_size": 202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/templates/layout.coffee",
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/templates/ingest.coffee",
+			"settings":
+			{
+				"buffer_size": 227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/app.sass",
+			"settings":
+			{
+				"buffer_size": 31736,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 529,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Format Code"
+			],
+			[
+				"for",
+				"Format Code"
+			],
+			[
+				"Package Control: Install Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/matt/Dropbox/git/ecco/tpl/page.jade",
+		"/Users/matt/Dropbox/git/ecco/public/js/models/model_file.js",
+		"/Users/matt/Dropbox/git/ecco/public/js/vendor/jquery.parse.js",
+		"/Users/matt/Dropbox/git/ecco/public/js/models/model_navbar.js",
+		"/Users/matt/Dropbox/git/ecco/public/js/views/view_load.js",
+		"/Users/matt/Dropbox/git/ecco/public/js/templates/ingest.coffee",
+		"/Users/matt/Dropbox/git/ecco/public/js/templates/load.coffee",
+		"/Users/matt/Dropbox/git/ecco/public/js/templates/navbar.coffee",
+		"/Users/matt/Dropbox/git/ecco/public/js/views/view_ingest_layout.js",
+		"/Users/matt/Dropbox/git/ecco/public/js/views/view_navbar.js",
+		"/Users/matt/Dropbox/git/ecco/public/js/views/view_window.js",
+		"/Users/matt/Dropbox/git/ecco/public/css/app.css",
+		"/Users/matt/Dropbox/git/ecco/public/js/app.js",
+		"/Users/matt/Dropbox/git/ecco/views/index.ejs",
+		"/Users/matt/Dropbox/git/stream-adv/program.js",
+		"/Users/matt/Downloads/graph_test.py",
+		"/Users/matt/Dropbox/git/ecco/public/jquery-2.1.1.min.js",
+		"/Users/matt/Dropbox/git/ecco/node_modules/socket.io/benchmarks/decode.bench.js",
+		"/Users/matt/Dropbox/git/log-archives/parse.py",
+		"/Users/matt/.bash_history",
+		"/Users/matt/Dropbox/git/marc-play/test.py",
+		"/usr/local/lib/python2.7/site-packages/pymarc/reader.py",
+		"/Users/matt/Desktop/marc/ILS_bib_extract/test.txt",
+		"/Users/matt/Dropbox/git/JDisc/Tutorials/match_viaf.py",
+		"/Users/matt/Dropbox/git/data.archives/app/models/component_layout.rb",
+		"/Users/matt/Dropbox/git/archives_portal/app/controllers/collections_controller.rb",
+		"/Users/matt/Dropbox/git/trevor_viz/log.lo",
+		"/Users/matt/Dropbox/git/trevor_viz/data/ead/8663.xml",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/views/view_nav_window.js",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/stylesheets/media.scss",
+		"/Users/matt/Dropbox/git/archives_portal/app/models/group.rb",
+		"/Users/matt/Dropbox/git/archives_portal/app/models/guide_group_association.rb",
+		"/Users/matt/Dropbox/git/archives_portal/db/migrate/20140114171727_add_guide_id_to_group_associations.rb",
+		"/Users/matt/Dropbox/git/archives_portal/app/models/guide_guide_association.rb",
+		"/Users/matt/Dropbox/git/archives_portal/db/migrate/20140114205605_change_guide_groups.rb",
+		"/Users/matt/Dropbox/git/archives_portal/app/models/component.rb",
+		"/Users/matt/Dropbox/git/archives_portal/app/models/collection.rb",
+		"/Users/matt/Dropbox/git/archives_portal/app/models/record_guide_association.rb",
+		"/Users/matt/Dropbox/git/archives_portal/db/migrate/20140114155631_add_sib_seq_to_guides.rb",
+		"/Users/matt/Dropbox/git/archives_portal/db/migrate/20140113191717_create_record_group_associations.rb",
+		"/Users/matt/Dropbox/git/archives_portal/app/controllers/searches_controller.rb",
+		"/Users/matt/Dropbox/git/archives_portal/db/migrate/20131126200632_create_record_guide_associations.rb",
+		"/Users/matt/Dropbox/git/archives_portal/db/migrate/20140110202110_create_guide_group_associations.rb",
+		"/Users/matt/Dropbox/git/archives_portal/db/migrate/20140110195454_update_guides_add_groups.rb",
+		"/Users/matt/Dropbox/git/archives_portal/db/migrate/20140110194633_update_guides_add_groups.rb",
+		"/Users/matt/Dropbox/git/archives_portal/db/migrate/20140110194633_update_guides.rb",
+		"/Users/matt/Dropbox/git/archives_portal/db/migrate/2014",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/views/view_digital_assets.js",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/stylesheets/general.scss",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/collections.js",
+		"/Users/matt/Dropbox/git/archives_portal/app/helpers/contacts_helper.rb",
+		"/Users/matt/Dropbox/git/archives_portal/app/helpers/collections_helper.rb",
+		"/Users/matt/Downloads/pythonapidemo/queryWikimeta.py",
+		"/Users/matt/Downloads/pythonapidemo/test.txt",
+		"/Users/matt/Downloads/pythonapidemo/readme.txt",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/models/model_series.js",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/views/view_nav_filter.js",
+		"/Users/matt/Dropbox/git/data.archives/app/controllers/ingests_controller.rb",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/application.js",
+		"/Users/matt/Dropbox/git/archives_portal/app/helpers/description_helper.rb",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/models/model_config.js",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/views/view_nav_select_buttons.js",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/contacts.js.coffee",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/contact_form.js",
+		"/Users/matt/Dropbox/git/archives_portal/app/helpers/application_helper.rb",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/archives.js",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/collections/series_collection.js",
+		"/Users/matt/Dropbox/git/catalog-viz/dewey/client/js/dewey.js",
+		"/Users/matt/Dropbox/git/catalog-viz/dewey/client/index.html",
+		"/Users/matt/Dropbox/git/catalog-viz/dewey/client/css/style.css",
+		"/Users/matt/Dropbox/git/catalog-viz/dewey/client/js/bootstrap.js",
+		"/Users/matt/Dropbox/git/catalog-viz/dewey/server/app.js",
+		"/Users/matt/Dropbox/git/catalog-viz/dewey/server/package.json",
+		"/Users/matt/Dropbox/git/catalog-viz/pickle_data.py",
+		"/Users/matt/Dropbox/git/catalog-viz/dewey/dewey.py",
+		"/Users/matt/Dropbox/git/book-concierge/.gitignore",
+		"/Users/matt/Downloads/20131104-education-degree.json",
+		"/Users/matt/.ssh/known_hosts",
+		"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts/views/view_nav_side.js",
+		"/Users/matt/Dropbox/temp/linkedjazz.nt",
+		"/Users/matt/Dropbox/temp/lod_dataset_example.py",
+		"/Users/matt/Dropbox/temp/python_demo.py",
+		"/Users/matt/Downloads/rows.rdf",
+		"/Users/matt/Dropbox/temp/ez_setup.py",
+		"/Users/matt/Dropbox/*LinkedJazz_Team/NEH GRANT PROPOSAL/*START-UP II GRANT 2013/OLD DRAFTS/8.30.2013_NEHGrant.doc"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/matt/Dropbox/git/archives_portal/",
+			"/Users/matt/Dropbox/git/archives_portal/app",
+			"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$(this)",
+			"ingest-sample-table-drop",
+			"shadow",
+			"column",
+			"15",
+			"type",
+			"ingest-sample-table-drop",
+			"animation",
+			"ingest-table-holder",
+			"pull-left ",
+			"reset",
+			"rest",
+			"Streamer",
+			").(",
+			"dropbox.addEventListener",
+			"createServer",
+			"app",
+			"morgan",
+			"litterature et Societe dans les pays anglophones",
+			"results",
+			"dataFile",
+			"background 1s ease",
+			"dragstart",
+			"start",
+			"base_indent",
+			"mystic-pad-item",
+			"templateFunctionItem",
+			"mystic-pad-item",
+			"handleDropMysticPad",
+			"dataLoaded",
+			"mysticPadModel",
+			"mysticPadData",
+			"component_ancestors",
+			"request",
+			"user_account",
+			"guides-create-stash-file",
+			"validateStructure",
+			"fatal",
+			"page",
+			"mystic-pad-item",
+			"typeahead-template-datum",
+			"handleDropMysticPad",
+			"console",
+			"handelDragStart",
+			"handleDrop",
+			"handleDrop\\",
+			"typeahead",
+			"date",
+			"render",
+			"guide-create-row",
+			"render(",
+			"fixed-nav-subtitle",
+			"$",
+			"footInViewport",
+			"adjustForFooter",
+			"footerPositionChange",
+			"checkFooterPosition",
+			"dateastitl",
+			".texts",
+			"useDateAsTitle",
+			"David r",
+			"guides-create-stash-collection-handel",
+			"active",
+			"disabled",
+			"dragstart",
+			"guide-create-row",
+			"guide-create-row\"",
+			"uides-create-add-components",
+			"guides-create-add-components",
+			"twitter-typeahead",
+			"guide-create-row",
+			"record_guide_associations",
+			"guide",
+			"step_indent",
+			"trans",
+			"$",
+			"backgrou",
+			"leto",
+			"1",
+			".",
+			"Models",
+			"$.",
+			"get",
+			"guideNew",
+			"contact-link",
+			"contact_path",
+			"con",
+			"concat",
+			"cboxElement",
+			"console",
+			"localStorage",
+			"sessionStorage",
+			"running"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sessionStorage",
+			"localStorage"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/js/js.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/js/routes/all.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 63.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/js/models/model_socket.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1387,
+								1023
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/js/ecco.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/js/models/model_config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1350,
+								1350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 18.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public/js/models/model_file_csv.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/js/views/view_file_csv_config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3385,
+								3385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3416.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/js/templates/view_file_csv_config.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2429,
+								2429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 994.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public/js/views/view_window.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								845,
+								845
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 293.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public/js/views/view_errors.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1249,
+								1249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "public/js/collections/collection_files.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "public/js/templates/layout.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "public/js/templates/ingest.coffee",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 14,
+					"file": "public/css/app.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1093,
+								1093
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 491.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "views/index.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.52111872944,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ecco.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 171.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

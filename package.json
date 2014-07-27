@@ -1,0 +1,17 @@
+{
+    "name": "Ecco!",
+    "version": "0.0.0",
+    "description": "A interface for disambiguating LOD APIs",
+    "dependencies": {
+        "socket.io": "latest",
+        "express": "latest",
+        "jade": "latest",
+        "compression": "latest",
+        "coffee-script": "latest",
+        "connect-assets": "latest",
+        "ejs": "latest",
+        "levelup" : "latest",
+        "leveldown" : "latest"
+    },
+    "author": "Matt Miller @thisisismmiller"
+}
