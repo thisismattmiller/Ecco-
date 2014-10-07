@@ -61,6 +61,14 @@
 					this.socket = io();
 					this.set('connected',true);
 					this.set('previouslyConnected',true);
+					this.socket.user = null;
+
+
+					Ecco.Events.trigger("socket:available");
+
+
+					return true;
+			
 
 				}catch(e){
 					console.error("The Socket.io could not be initialized, check client console.");
@@ -72,11 +80,14 @@
 					this.set('previouslyConnected',false);
 
 					Ecco.Events.trigger("socket:could_not_start_io");
+
+					return false;
 				}
 			
 
 			}else{
 				Ecco.Events.trigger("socket:io_not_defined");
+				return false;
 			}
 			
 

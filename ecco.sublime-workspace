@@ -4,16 +4,128 @@
 		"selected_items":
 		[
 			[
-				"mar",
-				"margin-left"
+				"viaf",
+				"viafId"
 			],
 			[
-				"text",
-				"text-decoration"
+				"bor",
+				"border"
 			],
 			[
 				"pa",
 				"padding-left"
+			],
+			[
+				"bind",
+				"bindSocket"
+			],
+			[
+				"mod",
+				"modelUser"
+			],
+			[
+				"work",
+				"workQueue"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"proje",
+				"projectsSendRecord"
+			],
+			[
+				"num",
+				"numberInQueue"
+			],
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"data",
+				"dataStore"
+			],
+			[
+				"all",
+				"allResultRecords"
+			],
+			[
+				"aRe",
+				"aResultRecord"
+			],
+			[
+				"aT",
+				"aTitleKey"
+			],
+			[
+				"tit",
+				"titlesKey"
+			],
+			[
+				"sor",
+				"sourcesKey"
+			],
+			[
+				"name",
+				"nameObj"
+			],
+			[
+				"c",
+				"cluster"
+			],
+			[
+				"se",
+				"searchTerm"
+			],
+			[
+				"rec",
+				"recordKey"
+			],
+			[
+				"local",
+				"localTerm"
+			],
+			[
+				"loo",
+				"lookup"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"re",
+				"record"
+			],
+			[
+				"queue",
+				"queued"
+			],
+			[
+				"api",
+				"apiName"
+			],
+			[
+				"db",
+				"dbid"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"text",
+				"text-decoration"
 			],
 			[
 				"remove",
@@ -30,10 +142,6 @@
 			[
 				"add",
 				"addClass"
-			],
-			[
-				"pad",
-				"padding-top"
 			],
 			[
 				"max",
@@ -74,10 +182,6 @@
 			[
 				"conn",
 				"connected"
-			],
-			[
-				"res",
-				"resultsFile"
 			],
 			[
 				"sear",
@@ -167,7 +271,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 398,
+				"buffer_size": 621,
 				"line_ending": "Unix"
 			}
 		},
@@ -191,7 +295,7 @@
 			"file": "public/js/models/model_socket.js",
 			"settings":
 			{
-				"buffer_size": 1488,
+				"buffer_size": 1628,
 				"line_ending": "Unix"
 			}
 		},
@@ -199,7 +303,7 @@
 			"file": "public/js/ecco.js",
 			"settings":
 			{
-				"buffer_size": 879,
+				"buffer_size": 1252,
 				"line_ending": "Unix"
 			}
 		},
@@ -212,10 +316,10 @@
 			}
 		},
 		{
-			"file": "public/js/models/model_file_csv.js",
+			"file": "public/js/models/model_user.js",
 			"settings":
 			{
-				"buffer_size": 7761,
+				"buffer_size": 1055,
 				"line_ending": "Unix"
 			}
 		},
@@ -223,31 +327,15 @@
 			"file": "public/js/views/view_file_csv_config.js",
 			"settings":
 			{
-				"buffer_size": 4810,
+				"buffer_size": 4987,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "public/js/templates/view_file_csv_config.coffee",
+			"file": "public/js/models/model_project.js",
 			"settings":
 			{
-				"buffer_size": 2557,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/js/views/view_window.js",
-			"settings":
-			{
-				"buffer_size": 3738,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/js/views/view_errors.js",
-			"settings":
-			{
-				"buffer_size": 1459,
+				"buffer_size": 1271,
 				"line_ending": "Unix"
 			}
 		},
@@ -260,10 +348,42 @@
 			}
 		},
 		{
-			"file": "public/js/templates/layout.coffee",
+			"file": "public/js/models/model_file_csv.js",
 			"settings":
 			{
-				"buffer_size": 112,
+				"buffer_size": 10549,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/views/view_home_user.js",
+			"settings":
+			{
+				"buffer_size": 992,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/views/view_project.js",
+			"settings":
+			{
+				"buffer_size": 2398,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/font.css",
+			"settings":
+			{
+				"buffer_size": 919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/views/view_home_projects.js",
+			"settings":
+			{
+				"buffer_size": 1261,
 				"line_ending": "Unix"
 			}
 		},
@@ -276,10 +396,100 @@
 			}
 		},
 		{
+			"contents": "Searching 3794 files for \"window.Ecco.Templates['ingestLayout']\"\n\n/Users/matt/Dropbox/git/ecco/public/js/templates/ingest.coffee:\n    1: window.Ecco.Templates['ingestLayout'] = \"\"\"\n    2  \n    3  	\n\n1 match in 1 file\n\n\nSearching 3794 files for \"['ingestLayout']\"\n\n/Users/matt/Dropbox/git/ecco/public/js/templates/ingest.coffee:\n    1: window.Ecco.Templates['ingestLayout'] = \"\"\"\n    2  \n    3  	\n\n/Users/matt/Dropbox/git/ecco/public/js/views/view_ingest_layout.js:\n   88  // 			var self = this;\n   89  \n   90: // 			var ingestLayoutTemplate = _.template(Analyzer.Templates['ingestLayout']);\n   91  // 			var html = ingestLayoutTemplate({model: self.model});\n   92  \n\n2 matches across 2 files\n\n\nSearching 3794 files for \"FileCSVConfig\"\n\n/Users/matt/Dropbox/git/ecco/public/js/models/model_file_csv.js:\n  117  			self.analyzeSample();\n  118  \n  119: 			Ecco.viewFileCSVConfig = new Ecco.Views.FileCSVConfig({model: this, el: $(\"#main\")});\n  120  \n  121  \n\n/Users/matt/Dropbox/git/ecco/public/js/templates/view_file_csv_config.coffee:\n    1: window.Ecco.Templates['fileCSVConfig'] = \"\"\"\n    2  \n    3  \n\n/Users/matt/Dropbox/git/ecco/public/js/views/view_file_csv_config.js:\n    3  	\"use strict\";\n    4  \n    5: 	window.Ecco.Views.FileCSVConfig = Backbone.View.extend({\n    6  \n    7  \n    .\n  216  		render: function() {\n  217  \n  218: 			var fileCSVConfigTemplate = _.template(Ecco.Templates['fileCSVConfig']);\n  219  \n  220  \n  221: 			var html = fileCSVConfigTemplate({model: this.model, columnOptions: Ecco.modelConfig.get('fileColumnOptions')});\n  222  \n  223  			$(this.el).html(html);\n\n7 matches across 3 files\n\n\nSearching 5697 files for \"stats:usersTotal\"\n\n/Users/matt/Dropbox/git/ecco/public/js/models/model_user.js:\n   29  			Ecco.Events.on(\"socket:available\", function(){ self.bindSocket() });	\n   30  \n   31: 			this.on(\"change:totalUsers\", function(){ Ecco.Events.trigger(\"stats:usersTotal\", self.get(\"totalUsers\"), self); }, this);\n   32  \n   33  \n\n/Users/matt/Dropbox/git/ecco/public/js/views/view_project.js:\n   21  			var self = this;\n   22  \n   23: 			Ecco.Events.on(\"stats:usersTotal\", function(total){ $(\".project-people\").text(total);  });\n   24  \n   25  \n\n2 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 2200,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "public/js/views/view_ingest_layout.js",
+			"settings":
+			{
+				"buffer_size": 2172,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/views/view_window.js",
+			"settings":
+			{
+				"buffer_size": 1050,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/views/view_errors.js",
+			"settings":
+			{
+				"buffer_size": 2360,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/collections/collection_projects.js",
+			"settings":
+			{
+				"buffer_size": 1880,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/templates/layout.coffee",
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "public/css/app.sass",
 			"settings":
 			{
-				"buffer_size": 31736,
+				"buffer_size": 142732,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/templates/view_project.coffee",
+			"settings":
+			{
+				"buffer_size": 1930,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/templates/view_file_csv_config.coffee",
+			"settings":
+			{
+				"buffer_size": 2583,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/templates/view_home_projects.coffee",
+			"settings":
+			{
+				"buffer_size": 1493,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/templates/view_home_user.coffee",
+			"settings":
+			{
+				"buffer_size": 502,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/views/view_navbar.js",
+			"settings":
+			{
+				"buffer_size": 519,
 				"line_ending": "Unix"
 			}
 		},
@@ -287,7 +497,79 @@
 			"file": "views/index.ejs",
 			"settings":
 			{
-				"buffer_size": 529,
+				"buffer_size": 536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/config.js",
+			"settings":
+			{
+				"buffer_size": 190,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/projects.js",
+			"settings":
+			{
+				"buffer_size": 1649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1543,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/projects.js",
+			"settings":
+			{
+				"buffer_size": 8599,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/dataStore.js",
+			"settings":
+			{
+				"buffer_size": 5650,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/api_viaf.js",
+			"settings":
+			{
+				"buffer_size": 16233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/matt/Dropbox/git/mms_analyze/names_noAuthority.json",
+			"settings":
+			{
+				"buffer_size": 1263576,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/utils.js",
+			"settings":
+			{
+				"buffer_size": 7197,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/matt/Dropbox/git/JDisc/Tutorials/Jdisc_viaf_mapping/match_viaf.py",
+			"settings":
+			{
+				"buffer_size": 5262,
 				"line_ending": "Unix"
 			}
 		}
@@ -330,8 +612,28 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/matt/Dropbox/git/ecco"
+	],
 	"file_history":
 	[
+		"/Users/matt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/matt/Dropbox/git/mms_analyze/mods_report/mods_identifier/@displayLabel.json",
+		"/Users/matt/Dropbox/git/mms_analyze/mods_report/mods_identifier/@type.json",
+		"/Users/matt/Dropbox/git/mms_analyze/mods_report/mods_identifier/@ID.json",
+		"/Users/matt/Dropbox/git/ecco/data/api/viaf/cache/a88e4662a718f2e0a1a82428074cfc08",
+		"/Users/matt/Dropbox/git/ecco/modules/api_viaf.js",
+		"/Users/matt/Dropbox/git/ecco/npm-debug.log",
+		"/Users/matt/Dropbox/git/ecco/app.js",
+		"/Users/matt/Dropbox/git/ecco/public/js/views/view_home_user.js",
+		"/Users/matt/Dropbox/git/ecco/public/js/collections/collection_files.js",
+		"/Users/matt/Dropbox/git/ecco/public/js/views/view_file_csv_config.js",
+		"/Users/matt/Dropbox/git/ecco/public/js/templates/view_file_csv_config.coffee",
+		"/Users/matt/Dropbox/git/ecco/data/database/projects/LOG.old",
+		"/Users/matt/Dropbox/git/ecco/data/database/projects/000087.log",
+		"/Users/matt/Dropbox/git/ecco/data/database/projects/000086.ldb",
+		"/Users/matt/Dropbox/git/ecco/.gitignore",
 		"/Users/matt/Dropbox/git/ecco/tpl/page.jade",
 		"/Users/matt/Dropbox/git/ecco/public/js/models/model_file.js",
 		"/Users/matt/Dropbox/git/ecco/public/js/vendor/jquery.parse.js",
@@ -427,6 +729,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/matt/Dropbox/git/ecco/",
 			"/Users/matt/Dropbox/git/archives_portal/",
 			"/Users/matt/Dropbox/git/archives_portal/app",
 			"/Users/matt/Dropbox/git/archives_portal/app/assets/javascripts"
@@ -437,6 +740,80 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"click",
+			"h5",
+			"project-status",
+			"stats:usersTotal",
+			"projectsSendRecord",
+			"for (",
+			"blah",
+			"done",
+			"stream",
+			"stream close",
+			"stream",
+			"totalTerms",
+			"projectsUpdate",
+			"del",
+			"populateQueue",
+			"openProjects",
+			"Hey",
+			"HEY",
+			"hey",
+			"self",
+			"localQual",
+			"console.",
+			"populateQueue",
+			"record.tempSearchOptions.triedExact",
+			"dataObj",
+			"subKey",
+			"Virginia. Governor",
+			"removePunct",
+			"Morillier",
+			"populateQueue",
+			"this",
+			"api",
+			"status",
+			"statrus",
+			"projectsList",
+			"sass",
+			"=0",
+			"= 0",
+			" : ",
+			"localQual",
+			"uuid",
+			".data",
+			",",
+			":",
+			"Ignore",
+			"i",
+			"modelFileCSV",
+			"sample",
+			"animation",
+			"addNewCollection",
+			"null",
+			"0px",
+			"2px",
+			"1px",
+			"50",
+			"box",
+			"2",
+			"errors",
+			"\");",
+			");",
+			"event",
+			"3",
+			"5",
+			"animationFrames",
+			"animation",
+			"FileCSVConfig",
+			"['ingestLayout']",
+			"window.Ecco.Templates['ingestLayout']",
+			"Connect",
+			"connect",
+			"Connect",
+			"connect",
+			"z",
+			"val",
 			"$(this)",
 			"ingest-sample-table-drop",
 			"shadow",
@@ -490,46 +867,7 @@
 			"render(",
 			"fixed-nav-subtitle",
 			"$",
-			"footInViewport",
-			"adjustForFooter",
-			"footerPositionChange",
-			"checkFooterPosition",
-			"dateastitl",
-			".texts",
-			"useDateAsTitle",
-			"David r",
-			"guides-create-stash-collection-handel",
-			"active",
-			"disabled",
-			"dragstart",
-			"guide-create-row",
-			"guide-create-row\"",
-			"uides-create-add-components",
-			"guides-create-add-components",
-			"twitter-typeahead",
-			"guide-create-row",
-			"record_guide_associations",
-			"guide",
-			"step_indent",
-			"trans",
-			"$",
-			"backgrou",
-			"leto",
-			"1",
-			".",
-			"Models",
-			"$.",
-			"get",
-			"guideNew",
-			"contact-link",
-			"contact_path",
-			"con",
-			"concat",
-			"cboxElement",
-			"console",
-			"localStorage",
-			"sessionStorage",
-			"running"
+			"footInViewport"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -549,7 +887,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 12,
 			"sheets":
 			[
 				{
@@ -558,15 +896,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 398,
+						"buffer_size": 621,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								320,
-								320
+								556,
+								540
 							]
 						],
 						"settings":
@@ -579,7 +917,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -607,7 +945,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
@@ -632,11 +970,11 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 63.0,
+						"translation.x": 0.0,
+						"translation.y": 386.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -645,15 +983,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1488,
+						"buffer_size": 1628,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1387,
-								1023
+								249,
+								249
 							]
 						],
 						"settings":
@@ -665,7 +1003,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
@@ -674,15 +1012,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 879,
+						"buffer_size": 1252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								311,
-								322
+								407,
+								416
 							]
 						],
 						"settings":
@@ -691,10 +1029,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 845.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -710,37 +1048,8 @@
 						"selection":
 						[
 							[
-								1350,
-								1350
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 18.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "public/js/models/model_file_csv.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7761,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								353,
-								353
+								1372,
+								1386
 							]
 						],
 						"settings":
@@ -749,10 +1058,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 44.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public/js/models/model_user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1027,
+								1027
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 143.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
@@ -761,15 +1099,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4810,
+						"buffer_size": 4987,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3385,
-								3385
+								3419,
+								3421
 							]
 						],
 						"settings":
@@ -778,57 +1116,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3416.0,
+						"translation.y": 3070.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "public/js/templates/view_file_csv_config.coffee",
+					"file": "public/js/models/model_project.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2557,
+						"buffer_size": 1271,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2429,
-								2429
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 994.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "public/js/views/view_window.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3738,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								845,
-								845
+								1060,
+								1074
 							]
 						],
 						"settings":
@@ -836,46 +1144,17 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 293.0,
+						"translation.x": 0.0,
+						"translation.y": 981.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "public/js/views/view_errors.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1459,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1249,
-								1249
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
+					"buffer": 9,
 					"file": "public/js/collections/collection_files.js",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 202,
@@ -885,8 +1164,8 @@
 						"selection":
 						[
 							[
-								3,
-								202
+								0,
+								0
 							]
 						],
 						"settings":
@@ -897,11 +1176,389 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public/js/models/model_file_csv.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6159,
+								6159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5444.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "public/js/views/view_home_user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								513,
+								513
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 93.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 13,
 					"type": "text"
 				},
 				{
 					"buffer": 12,
+					"file": "public/js/views/view_project.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								670,
+								405
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 196.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "public/css/font.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "public/js/views/view_home_projects.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "public/js/templates/ingest.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2200,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										137,
+										174
+									],
+									[
+										356,
+										372
+									],
+									[
+										572,
+										588
+									],
+									[
+										860,
+										873
+									],
+									[
+										891,
+										904
+									],
+									[
+										1062,
+										1075
+									],
+									[
+										1227,
+										1240
+									],
+									[
+										1340,
+										1353
+									],
+									[
+										1391,
+										1404
+									],
+									[
+										1446,
+										1459
+									],
+									[
+										1883,
+										1899
+									],
+									[
+										2083,
+										2099
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1617,
+								1617
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 4,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1037.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "public/js/views/view_ingest_layout.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1285,
+								1301
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1367.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "public/js/views/view_window.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								677,
+								616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 471.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "public/js/views/view_errors.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1040,
+								1143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "public/js/collections/collection_projects.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1880,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1360,
+								1360
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
 					"file": "public/js/templates/layout.coffee",
 					"semi_transient": false,
 					"settings":
@@ -925,16 +1582,171 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 36,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 22,
+					"file": "public/css/app.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 142732,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7489,
+								7489
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7813.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "public/js/templates/ingest.coffee",
+					"buffer": 23,
+					"file": "public/js/templates/view_project.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1930,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1090,
+								1090
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 134.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "public/js/templates/view_file_csv_config.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1649,
+								1649
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 21384.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "public/js/templates/view_home_projects.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								736,
+								722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 785.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "public/js/templates/view_home_user.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								482,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "public/js/views/view_navbar.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 227,
+						"buffer_size": 519,
 						"regions":
 						{
 						},
@@ -947,66 +1759,30 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 14,
-					"file": "public/css/app.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31736,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1093,
-								1093
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 491.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 28,
 					"file": "views/index.ejs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 529,
+						"buffer_size": 536,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								370,
-								370
+								211,
+								211
 							]
 						],
 						"settings":
@@ -1020,7 +1796,268 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "modules/config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "routes/projects.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1394,
+								1394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1070.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "modules/projects.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7848,
+								7848
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 183.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "modules/dataStore.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5650,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1462,
+								1471
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 44.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "modules/api_viaf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14248,
+								14248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2175.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "/Users/matt/Dropbox/git/mms_analyze/names_noAuthority.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1263576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 31910578.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "modules/utils.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								472,
+								473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "/Users/matt/Dropbox/git/JDisc/Tutorials/Jdisc_viaf_mapping/match_viaf.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								394,
+								394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
 					"type": "text"
 				}
 			]
@@ -1028,7 +2065,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -1054,7 +2091,7 @@
 		"cols":
 		[
 			0.0,
-			0.52111872944,
+			0.513364849914,
 			1.0
 		],
 		"rows":
@@ -1075,7 +2112,7 @@
 	"project": "ecco.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1102,6 +2139,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -1109,7 +2147,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 171.0,
+	"side_bar_width": 188.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

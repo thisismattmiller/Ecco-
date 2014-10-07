@@ -1,2 +1,6 @@
 node_modules/
+data/api
+data/database/*
+ecco.sublime-project
+ecco.sublime-workspace
 .DS_Store

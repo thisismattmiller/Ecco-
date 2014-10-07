@@ -4,14 +4,6 @@
 
 	window.Ecco.Views.FileCSVConfig = Backbone.View.extend({
 
-
-
-		events : {
-
-			
-
-		},
-
 		initialize: function() {
 
 			this.render();
@@ -92,7 +84,7 @@
 
 					//if (e.preventDefault) e.preventDefault(); // allows us to drop
 					$(this).parent().css("color",'inherit');
-					$($(this).parent().children()[1]).text( "Ignore" );
+					$($(this).parent().children()[1]).text( "Skip" );
 
 				}
 
@@ -135,7 +127,7 @@
 
 				}else{
 					$(this).parent().css("color",'inherit');
-					$($(this).parent().children()[1]).text( "Ignore" );				
+					$($(this).parent().children()[1]).text( "Skip" );				
 				}
 				
 
@@ -147,7 +139,21 @@
 
 				self.toggleFirstRow($(this).prop( "checked" ));
 
+			});
+
+
+			$(".ingest-cancel").click(function(){
+				Ecco.viewProject.render();
 			})
+
+			$(".ingest-ingest").click(function(){
+				
+				if (self.model.validateConfig()){
+					self.model.ingest();				
+				}
+			})
+
+
 
 
 		},
@@ -194,7 +200,7 @@
 			if ( this.model.removeConfig(col) ){
 
 					el.parent().css("color",'inherit');
-					$(el.parent().children()[1]).text( "Ignore" )
+					$(el.parent().children()[1]).text( "Skip" )
 
 					$(el.parent().children()[2]).show();
 					

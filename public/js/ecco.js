@@ -16,7 +16,6 @@
 
 		workspace : "home",
 
-
 		init : function(){
 
 
@@ -29,18 +28,23 @@
 			//models
 			this.modelConfig = new this.Models.Config();
 			this.modelSocket = new this.Models.Socket();
+			this.modelUser = new this.Models.User();
 
 
 			//collections
-			//this.collectionFiles = new this.Collections.Files();
-
+			this.collectionProjects = new this.Collections.Projects();
 
 
 
 			//views
 			this.viewError = new this.Views.Errors({model: {}, el: $("#errors")});
 			this.viewWindow = new this.Views.Window({model: {}, el: $(document)});
+			this.viewHomeUser = new this.Views.HomeUser({model: this.modelUser, el: $("#main")});
+			this.viewHomeProjects = new this.Views.HomeProjects({model: this.collectionProjects, el: $("#main")});
+			
 
+			//redefined later on when project is selected
+			this.viewProject = new this.Views.Project({model: {}, el: $("#main")});
 
 
 			//start the routes
@@ -50,6 +54,9 @@
 
 			//connect to the server
 			this.modelSocket.connect();
+
+
+
 
 
 

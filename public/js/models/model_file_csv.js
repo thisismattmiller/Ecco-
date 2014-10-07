@@ -24,6 +24,8 @@
 			//stores the layout of the columns
 			columnLayout : {},
 
+			batchId : "",
+
 			
 			firstRowIsHeaders: false,
 
@@ -33,15 +35,25 @@
 
 		initialize: function(f){
 
+
 			var self = this;
 
+
+
+			this.clear().set(this.defaults);
+
+			this.set('sample',[]);
+			this.set('columnLayout',{});
+			this.set('firstRowIsHeaders',false);
+
+
+			//generate a batch id that will be used to keep track of these in the db
+			this.set('batchId',  Ecco.modelUser.get("name") + '-' + Date.now() );
+			
 
 			//get the defualt values
 
 			this.set('sampleSize', Ecco.modelConfig.get("fileSampleSize"));
-
-
-
 
 
 			if (!f.name || !f.size || !f.type){
@@ -131,7 +143,8 @@
 				var aSample = this.get('sample')[x];
 				var aRow = aSample.results[0];
 
-				maxLength = (aRow.length >= maxLength) ? aRow.length : maxLength;
+				if (aRow)
+					maxLength = (aRow.length >= maxLength) ? aRow.length : maxLength;
 
 			}
 
@@ -184,7 +197,7 @@
 
 		},
 
-
+		//remove a config item from the layout
 		removeConfig: function(column){
 
 
@@ -200,7 +213,158 @@
 			
 
 
+		},
+
+		//makes sure that the col layouts are there before ingest
+		validateConfig: function(){
+
+			var layout = this.get('columnLayout');
+
+			console.log(layout);
+
+			var haslocalId = false, haslocalTerm = false;
+
+			_.each(layout, function(e,i){
+
+				if (e == 'localId')
+					haslocalId = true;
+
+				if (e == 'localTerm')
+					haslocalTerm = true;
+
+
+			});
+
+
+			if (haslocalId && haslocalTerm){
+
+				return true;
+			}else{
+
+				Ecco.Events.trigger("interface:ingest_need_both_id_term");
+				return false;
+			}
+
+
+
+		},
+
+
+
+		//send the file to the server in batches
+		ingest: function(){
+
+			var self = this;
+
+			//this will store the results as they are streemed in
+			self.cache = { layout : self.get("columnLayout"), data : [] };
+
+			var preconfig ={
+
+				config: {
+						header: false,
+						step: function(data, file){
+							//return self.takeSample(data);
+
+							if (data.results){
+								if (data.results.length == 1){
+
+
+									var datum = {};
+
+									_.each(self.cache.layout, function(e,i){
+
+										if (!datum[e]){
+											datum[e] = [];
+										}
+
+										datum[e].push(data.results[0][i])
+
+
+
+									});
+
+									self.cache.data.push(datum);
+
+									if (self.cache.data.length>=100){
+										self.ingestSend();
+									}
+
+								}
+							}
+
+
+						}
+					}
+			}
+
+			//get the sample, will trigger sampleReady when done.
+			try{
+				$.parseFile(this.get('file'), preconfig, $.proxy(function(){ /*Send the rest of them left over*/ self.ingestSend(); }, self), function(){ window.Ecco.Events.trigger("parse:parse_error") } );
+			}catch(e){
+				console.error("Error parsing the file");
+				console.error("-----------------------------------");
+				console.error(e);
+				console.error("-----------------------------------")
+				Ecco.Events.trigger("parse:parse_error");
+				return false;
+			}
+
+
+		},
+
+
+
+
+		ingestSend: function(){
+
+			var self = this;
+
+			//clone the store
+			var cache = JSON.parse(JSON.stringify(self.cache));
+
+			self.cache.data = [];
+
+
+			if (cache.data.length > 0){
+
+				//send the data to the server for processing
+				var project = Ecco.collectionProjects.activeProject(),
+					batchId = self.get('batchId'),
+					data 	=  cache.data,
+					layout = cache.layout;
+
+
+				Ecco.modelSocket.socket.emit('projectsIngest', {
+
+					project:project,
+					batchId:batchId,
+					data:data,
+					layout:layout,
+					firstRowIsHeaders: self.get("firstRowIsHeaders")
+
+
+				});
+
+				//kick back to the home page
+				Ecco.viewHomeProjects.render();
+
+
+			}
+
+			
+
+
+
+
+
+
 		}
+
+
+
+
+
 
 
 // 	idAttribute: "hash",

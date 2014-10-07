@@ -1,7 +1,7 @@
 {
     "name": "Ecco!",
-    "version": "0.0.0",
-    "description": "A interface for disambiguating LOD APIs",
+    "version": "0.1.0",
+    "description": "An interface for disambiguating LOD APIs",
     "dependencies": {
         "socket.io": "latest",
         "express": "latest",
@@ -11,7 +11,12 @@
         "connect-assets": "latest",
         "ejs": "latest",
         "levelup" : "latest",
-        "leveldown" : "latest"
+        "leveldown" : "latest",
+        "node-uuid" : "latest",
+        "ensureDir" : "latest",
+        "xml2js" : "0.4.4",
+        "request" : "2.40.0",
+        "fast-levenshtein" : "1.0.3"
     },
     "author": "Matt Miller @thisisismmiller"
 }

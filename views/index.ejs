@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%- css("css/bootstrap") %>
     <%- css("css/app") %>
-    <!--<% //css("fonts")%>-->
+    <%- css("css/font")%>
 
 
     <%- js("js/js") %>
 
     <script src="/socket.io/socket.io.js"></script>
-<link rel="stylesheet" href="http://i.icomoon.io/public/temp/24d504a734/ecco/style.css">   
+    <script type="text/javascript">
+
+      window.EccoConfig = {};
+      window.EccoConfig['publicMode'] = <%=configs['publicMode']%>;
+      window.EccoConfig['apiNames'] = "<%=configs['apiNames']%>".split(",");
+
+    </script>
+
+<!-- <link rel="stylesheet" href="http://i.icomoon.io/public/temp/22413aa178/ecco/style.css">   
+ -->
+
   </head>
 
 

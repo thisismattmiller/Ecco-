@@ -59,7 +59,7 @@ window.Ecco.Templates['fileCSVConfig'] = """
 									<div class="ingest-sample-table-drop" data-column="<%=x%>">
 										
 										<div class="icon-arrow-down ingest-sample-table-arrow"></div>
-										<span>Ignore</span>
+										<span>Skip</span>
 
 										<div class="ingest-sample-table-drop-mask"></div>
 
@@ -107,9 +107,9 @@ window.Ecco.Templates['fileCSVConfig'] = """
 
 						<input id="ingest-first-row" type="checkbox"><label for="ingest-first-row">First row is column labels</label>
 
-						<button class="btn btn-sm pull-right btn-primary">Ingest</button>
+						<button class="btn btn-sm pull-right btn-primary ingest-ingest">Ingest</button>
 
-						<button class="btn btn-sm pull-right">Cancel</button>
+						<button class="btn btn-sm pull-right ingest-cancel">Cancel</button>
 			</div>
 
 		</div>
